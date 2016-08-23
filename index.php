@@ -27,7 +27,7 @@ if(!empty($_GET['tytul']) && !empty($_GET['opis'])){
          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
        <![endif]-->
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-	<link href="css/style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
    <div id="head">
@@ -69,8 +69,8 @@ if(!empty($_GET['opis'])){
    
 
    
-<script type="text/javascript" async defer src="http://maps.google.com/maps/api/js?key=AIzaSyBPyfVuKK_LM7mL56q_u4j0mZgL1z_qHTc& language=pl&callback=initMap"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" async defer src="http://maps.google.com/maps/api/js?key=12345&language=pl&callback=initMap"></script>
+<script type="text/javascript" src="script.js"></script>
 <?php
 if(!empty($_GET['location'])){	
 
@@ -80,10 +80,6 @@ echo '</script>';
 
 }
 ?>
-<!-- OSTATNI KOD NIE DZIAŁA! SPRAWDZIĆ INNE OPCJE:
 
-http://stackoverflow.com/questions/23740548/how-to-pass-variables-and-data-from-php-to-javascript
-http://stackoverflow.com/questions/3613186/what-is-the-safest-way-of-passing-arguments-from-server-side-php-to-client-side
--->
 </body>
 </html>
