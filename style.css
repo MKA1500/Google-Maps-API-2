@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#head {
+	width: 100%;
+	height: 20vh;
+	background-color: #D8ECF2;
+}
+
+#wrapper {
+	width: 100%;
+	height: 80vh;
+	background-color: #FFFFFF;
+}
+
+#map {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+
+#content {
+	width: 200px;
+	height: 200px;
+	overflow: scroll;
+}
