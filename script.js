@@ -5,11 +5,6 @@ x = false; // zmienna sterująca 'czy już dodałem punkt',
 // by nie dodać dwóch (przed wniesieniem poprawki na mapę trzeba przestawić to na true, klikając w 'cofnij')
 typ = 1; // domyślnie, typ markera
 
-// PRZYDAŁOBY SIĘ PRZENIESIENIE WSZYSTKICH $('') DO ZMIENNYCH... - tak ogólnie teoretycznie, ale mnie czas goni...
-
-
-// czyszczenie markera:
-
 
 function initMap() {
 	
@@ -101,8 +96,7 @@ getDates(); // trzeba wywołać po każdej zmianie dat w form...
                   title: tytul,
                   icon: image				  
                   });
-	// JEST PROBLEM Z IKONKAMI MARKERÓW - GDY ODPALAM STRONĘ, NIE WIDAĆ ICH. MUSZĘ WZIĄć W KOMENTARZ 'icon: image' i zapisuję - wtedy już widzę surowy marker. potem zdejmuję komentarz, znów zapisuję i działa ładnie
-		    
+	    
 			marker.addListener('click', function() {
                  infowindow.open(map, marker);
                  })					  
@@ -136,15 +130,6 @@ $('div.iznak').hover(function() {
 		return lat1, lng1;
       }		
 	  
-
-		
-
-
-
-// datę do testów ustawię jako punkt odniesienia sztywną - niby dzisiejszą datę 2016-09-20, a docelowo powinna ona rzeczywiście generowana automatycznie z Date();		
-	
-		
-// magazynowanie danych o markerze będzie w bazie danych. Teraz, bez back endu, będę dodawał bierzące tylko do obiektu, w którym buforuję dane z .json
 
  var the_markers = [];
 
