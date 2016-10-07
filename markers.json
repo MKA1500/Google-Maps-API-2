@@ -1,0 +1,112 @@
+[{
+		"id" : "1",
+		"adres" : "Szewska 12, Kraków",
+		"lat" : "50.062571",
+		"lng" : "19.934716",
+		"typ" : "inwestycje",
+		"data_od" : "2016-09-20",
+		"data_do" : "2016-09-23",
+		"tytul" : "Montaż inteligentnego oświetlenia na Szewskiej",
+		"info" : "Pilotażowy projekt obejmuje montaż 3 768 punktów oświetlenia ulicznego, prace potrwają od 20 do 23 września br."	
+	},
+	{
+		"id" : "2",
+		"adres" : "Dietla 67, Kraków",
+		"lat" : "50.054049",
+		"lng" : "19.943964",
+		"typ" : "remonty",
+		"data_od" : "2016-09-20",
+		"data_do" : "2016-09-24",
+		"tytul" : "Remont nawierzchni na Dielta",
+		"info" : "Przygotowanie projektu oświetlenia LED, stworzenie systemu sterowania oświetleniem i sprzężenia go z systemem"			
+	},{
+		"id" : "3",
+		"adres" : "Pawia 4, Kraków",
+		"lat" : "50.065187",
+		"lng" : "19.945021",
+		"typ" : "zajęcie pasa drogowego",
+		"data_od" : "2016-09-20",
+		"data_do" : "2016-09-24",
+		"tytul" : "Zajęcie pasa drogowego na Pawiej",
+		"info" : "Przygotowanie projektu oświetlenia LED, stworzenie systemu sterowania oświetleniem i sprzężenia"		
+	},{
+		"id" : "4",
+		"adres" : "Dunajewskiego 1, Kraków",
+		"lat" : "50.063883",
+		"lng" : "19.933478",
+		"typ" : "zmiana organizacji ruchu",
+		"data_od" : "2016-09-20",
+		"data_do" : "2016-09-26",
+		"tytul" : "Zmiana organizacji ruchu na Juliana Dunajewskiego",
+		"info" : "Od 26 do 26 września 2016 r. pojazdy kołowe na ulicy Dunajewskiego będą poruszać się w kierunku wręcz przeciwnym"			
+	},{
+		"id" : "5",
+		"adres" : "Rynek Główny 4, Kraków",
+		"lat" : "50.061625",
+		"lng" : "19.938703",
+		"typ" : "inne",
+		"data_od" : "2016-09-20",
+		"data_do" : "2016-09-26",
+		"tytul" : "Prace archeologiczne przed Kościołem Mariackim",
+		"info" : "Prace archeologiczne przed Kościołem Mariackim potrwają od 20 do 26 września br. Efekty tego projektu badawczego mogą"
+	},{
+		"id" : "6",
+		"adres" : "Karmelicka 19, Kraków",
+		"lat" : "50.064882",
+		"lng" : "19.931513",
+		"typ" : "inne",
+		"data_od" : "2016-09-21",
+		"data_do" : "2016-09-26",
+		"tytul" : "Prace archeologiczne przed Kościołem na Karmelickiej",
+		"info" : "Prace archeologiczne przed Kościołem na Karmelickiej potrwają od 20 do 26 września br. Efekty tego projektu badawczego mogą się przełożyć się w przyszłości na ogólne zasady funkcjonowania oświetlenia w całym Krakowie."		
+	},{
+		"id" : "7",
+		"adres" : "Grodzka 22, Kraków",
+		"lat" : "50.059166",
+		"lng" : "19.937855",
+		"typ" : "inwestycje",
+		"data_od" : "2016-09-22",
+		"data_do" : "2016-09-26",
+		"tytul" : "Montaż inteligentnego oświetlenia na Grodzkiej",
+		"info" : "Pilotażowy projekt obejmuje montaż 3 768 punktów oświetlenia ulicznego, prace potrwają od 20 do 23 września br. Efekty tego projektu badawczego mogą się przełożyć się w przyszłości"			
+	},{
+		"id" : "8",
+		"adres" : "Powiśle 7, Kraków",
+		"lat" : "50.055494",
+		"lng" : "19.931327",
+		"typ" : "remonty",
+		"data_od" : "2016-09-23",
+		"data_do" : "2016-09-30",
+		"tytul" : "Remont nawierzchni na ulicy Powiśle",
+		"info" : "prace potrwają od 23 do 30 września br. Efekty tego projektu badawczego mogą się przełożyć się w przyszłości na ogólne zasady funkcjonowania oświetlenia w całym Krakowie."		
+	},{
+		"id" : "9",
+		"adres" : "Starowiślna 7, Kraków",
+		"lat" : "50.058736",
+		"lng" : "19.942943",
+		"typ" : "zajęcie pasa drogowego",
+		"data_od" : "2016-09-24",
+		"data_do" : "2016-10-10",
+		"tytul" : "Zajęcie pasa drogowego na Starowiślnej",
+		"info" : "Zajęcie pasa drogowego na Starowiślnej. Przygotowanie projektu oświetlenia LED, stworzenie systemu sterowania oświetleniem i sprzężenia go z systemem sterowania ruchem. "			
+	},{
+		"id" : "10",
+		"adres" : "Stradomska, Kraków",
+		"lat" : "50.053344",
+		"lng" : "19.939958",
+		"typ" : "zmiana organizacji ruchu",
+		"data_od" : "2016-09-25",
+		"data_do" : "2016-11-26",
+		"tytul" : "Zmiana organizacji ruchu na Juliana Dunajewskiego",
+		"info" : "Od 25 września do 26 października 2016 r. pojazdy kołowe na ulicy Stradomskiej będą poruszać się w kierunku wręcz przeciwnym"	
+	},{
+		"id" : "11",
+		"adres" : "Basztowa 19, Kraków",
+		"lat" : "50.065713",
+		"lng" : "19.941710",
+		"typ" : "inwestycje",
+		"data_od" : "2016-09-26",
+		"data_do" : "2019-09-26",
+		"tytul" : "Budowa stacji metra Barbakan",
+		"info" : "Budowa stacji metra Barbakan. Pilotażowy projekt obejmuje montaż 3 768 punktów oświetlenia ulicznego, efekty tego projektu badawczego mogą się przełożyć się w przyszłości"
+	}]
