@@ -1,4 +1,4 @@
-﻿var id, typ, lat1, lng1, tytul, info, data_od, data_do, x, adres, czy_zapisane;
+var id, typ, lat1, lng1, tytul, info, data_od, data_do, x, adres, czy_zapisane;
 
 czy_zapisane = false; // żaden marker nie został zapisany
 x = false; // zmienna sterująca 'czy już dodałem punkt', 
@@ -71,19 +71,19 @@ getDates(); // trzeba wywołać po każdej zmianie dat w form...
 			var image; 
 			switch (typ) {
 				case "remonty":			
-				     image = 'img/remonty-m.png';
+				     image = 'remonty-m.png';
 					 break;
 				case "inwestycje":			
-				     image = 'img/inwestycje-m.png';
+				     image = 'inwestycje-m.png';
 					 break;
 				case "zajęcie pasa drogowego":
-				     image = 'img/zaj-pasa-m.png';
+				     image = 'zaj-pasa-m.png';
 					 break;
 				case "zmiana organizacji ruchu":
-				     image = 'img/zmiana-org-m.png';
+				     image = 'zmiana-org-m.png';
 					 break;
 				case "inne":
-				     image = 'img/inne-m.png';
+				     image = 'inne-m.png';
 					 break;						 
 			}
 			
@@ -138,24 +138,23 @@ $('div.iznak').hover(function() {
 			for (var a = 0; a < the_markers.length; a++) {               
 			switch (the_markers[a].typ) {
 				case "remonty":			
-				     wstaw_img = 'img/remonty-m.png';
+				     wstaw_img = 'remonty-m.png';
 					 break;
 				case "inwestycje":			
-				     wstaw_img = 'img/inwestycje-m.png';
+				     wstaw_img = 'inwestycje-m.png';
 					 break;
 				case "zajęcie pasa drogowego":
-				     wstaw_img = 'img/zaj-pasa-m.png';
+				     wstaw_img = 'zaj-pasa-m.png';
 					 break;
 				case "zmiana organizacji ruchu":
-				     wstaw_img = 'img/zmiana-org-m.png';
+				     wstaw_img = 'zmiana-org-m.png';
 					 break;
 				case "inne":
-				     wstaw_img = 'img/inne-m.png';
+				     wstaw_img = 'inne-m.png';
 					 break;						 
 			}
 			
-			
-     		
+			    		
             $('.table-body').append('<tr class="rekord"><td class="id-tab">' 
 			+ the_markers[a].id + '</td><td class="tytul-tab">' 
 			+ the_markers[a].tytul + '</td><td class="typ-tab">'
@@ -166,8 +165,8 @@ $('div.iznak').hover(function() {
 			+ the_markers[a].data_do + '</td><td>' 
 			+ the_markers[a].info + '</td>'
 			+ '<td><div class="guzik-tab usun-z-tab">'
-			+ '<img src="img/delete.png" alt="Usuń"></div></td>'
-			+ '<td><div class="guzik-tab edyt-z-tab"><img src="img/edit.png" alt="Edytuj"></div>'
+			+ '<img src="delete.png" alt="Usuń"></div></td>'
+			+ '<td><div class="guzik-tab edyt-z-tab"><img src="edit.png" alt="Edytuj"></div>'
 			+ '</td></tr>');
 		
 		}
@@ -198,8 +197,6 @@ function new_marker(id, adres, lat1, lng1, typ, data_od, data_do, tytul, info) {
 	this.tytul = tytul;
 	this.info = info;
 } 
-
-
 
 
 		$('#awstaw').bind('click', function() {
@@ -265,7 +262,5 @@ var saveMarker = function() {
 			} , 200);
 			}		   
         });	
-
-   		
 
   }
